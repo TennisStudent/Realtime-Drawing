@@ -1,0 +1,52 @@
+.heading
+{
+    width: 100%;
+    margin: 0;
+    font-size: 24px;
+    box-shadow: 5px 5px 5px grey;
+}
+.note
+{
+    color: black;
+    font-size: 14px;
+}
+#width_or_height
+{
+    font-size: 21px !important;
+}
+canvas
+{
+    width: 40px;
+    height: 350px;
+    margin-top: 60px;
+
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example
+{
+    from{
+        box-shadow: 0px 0px 30p rgb(117, 243, 153) 
+    }
+    to{
+        box-shadow: 0px 0px 30px rgb(140, 210, 250) 
+    }
+}
+.copy-right-footer
+{
+    position: fixed;
+    bottom: 0;
+    background-color:rgb(117, 243, 153);
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    font-size: 18px;
+}
+.background_img
+{
+    background: url("background.jpeg");
+    background-position: center;
+    background-size: 100%;
+}
